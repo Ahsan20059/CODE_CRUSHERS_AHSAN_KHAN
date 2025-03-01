@@ -21,4 +21,68 @@ Join us in making waste disposal rewarding and meaningful! ♻️
 My home -page.html is the html code for my home page and sign.html is the html code for my sign page and regestron.html is the html code of regeistration page.
 
 i Have Also attached two python files named as Garbagedetector.py and Garbagedetectorlive.py which is my ai model code which detects garbages
+# Binz - Scrap Collection & Recycling Platform
 
+Binz is an innovative platform that collects scrap directly from users' homes and sells it to large industries specializing in recycling. Our goal is to offer the best market price for scrap while promoting environmental sustainability through our unique *RER Model: Recycle, Earn, Reduce*.
+
+## Key Features
+
+### ♻ *Best Scrap Prices*
+We ensure that users receive the best and most up-to-date market prices for their scrap.
+
+### 💰 *RER Model: Recycle, Earn, Reduce*
+- Users can dispose of waste in designated smart dustbins.
+- They earn reward coins, which can be converted into real money.
+- Encourages responsible waste disposal and recycling.
+
+### 🏆 *Leaderboard System*
+- Users can track their environmental contributions.
+- Top 3 contributors receive exciting perks and rewards.
+
+### 🎁 *Donation Option*
+- When our pickup team collects scrap, users can choose to donate its value to NGOs.
+
+### 🎟 *Waste Tracking System*
+- Users can track toxic waste disposal.
+- Data about waste management is provided via email for transparency.
+
+## 🛠 Technologies Used
+
+### *Frontend:*
+- HTML, CSS, JavaScript
+
+### *Backend:*
+- Node.js
+- MongoDB (Database)
+
+### *AI & Computer Vision:*
+- YOLOv8l model
+- OpenCV library
+- Trained with 30,000 images on Google Colab
+
+## 📂 Project Structure
+
+- homepage.html - Front page
+- scrab.html - Scrap rate page
+- upload.html - Page to upload video for verification
+
+## 🚀 How to Get Started
+1. Clone the repository:
+   sh
+   git clone https://github.com/yourusername/binz.git
+   
+2. Install dependencies:
+   sh
+   npm install
+   
+3. Start the backend server:
+   sh
+   node server.js
+   
+4. Open homepage.html in your browser to access the frontend.
+
+## 📬 Contact
+For any queries or collaboration opportunities, reach out to us at: 
+📧 Email: support@binz.com
+
+Let's make recycling rewarding! 🌍💚
