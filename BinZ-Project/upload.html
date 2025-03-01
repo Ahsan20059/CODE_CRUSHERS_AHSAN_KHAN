@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎥 Upload & Earn BinZ Coins 💰</title>
+    <link rel="stylesheet" href="upload.css">
+</head>
+<body>
+    <div class="background">
+         
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="my-logo.png" alt="">
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <div class="card">
+            <h2>📤 Upload Video & Earn BinZ Coins 🏆</h2>
+
+            <div class="content">
+                <!-- Left Form Section -->
+                <div class="form-section">
+                    <div class="input-group">
+                        <label for="name">👤 Your Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">📧 Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+
+                <!-- Right Upload Section -->
+                <div class="upload-section">
+                    <label for="video-upload" class="upload-box">
+                        🎬 + Upload Your Video
+                    </label>
+                    <input type="file" id="video-upload" accept="video/*" hidden>
+                    <video id="video-preview" controls></video>
+
+                    <!-- BinZ Coins Earned -->
+                    <div class="coins-display">💰 You Earned: <span id="coins">0</span> BinZ Coins 🎉</div>
+                </div>
+            </div>
+
+            <!-- Upload & Earn Button -->
+            <button class="upload" id="upload-btn">🚀 Upload & Earn 🎯</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
